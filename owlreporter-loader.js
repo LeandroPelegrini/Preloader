@@ -5,7 +5,7 @@ if (!document.getElementById(cssIdowl))
 {
     var head  = document.getElementsByTagName('head')[0];
     var link  = document.createElement('link');
-    link.id   = cssId;
+    link.id   = cssIdowl;
     link.rel  = 'stylesheet';
     link.type = 'text/css';
     link.href = 'https://cdn.rawgit.com/OwlReporter/Preloader/master/preloader.css';
