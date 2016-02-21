@@ -8,7 +8,7 @@ if (!document.getElementById(cssIdowl))
     link.id   = cssIdowl;
     link.rel  = 'stylesheet';
     link.type = 'text/css';
-    link.href = 'https://cdn.rawgit.com/OwlReporter/Preloader/master/preloader.css';
+    link.href = '//cdn.rawgit.com/OwlReporter/Preloader/master/preloader.css';
     link.media = 'all';
     head.appendChild(link);
 }
